@@ -1,0 +1,18 @@
+% name: Type your name
+% date: Type today's date
+% email: Type your email address
+diary off
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'file'. No such file or
+directory.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('approx', '/Users/andreapallotta/Desktop/approx.m', 6)" style="font-weight:bold">approx</a> (<a href="matlab: opentoline('/Users/andreapallotta/Desktop/approx.m',6,0)">line 6</a>)
+    load('file');
+} 
+approx('pvOutput.mat')
+{Unrecognized function or variable 'value'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('approx', '/Users/andreapallotta/Desktop/approx.m', 22)" style="font-weight:bold">approx</a> (<a href="matlab: opentoline('/Users/andreapallotta/Desktop/approx.m',22,0)">line 22</a>)
+    value = value + y(c);
+} 
+matlab.internal.language.introspective.errorDocCallback('approx', '/Users/andreapallotta/Desktop/approx.m', 22)
